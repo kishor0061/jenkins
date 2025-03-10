@@ -1,12 +1,8 @@
-import java.util.Scanner;
-
 public class SumOfTwoNumbers {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter first number:");
-        int num1 = scanner.nextInt();
-        System.out.println("Enter second number:");
-        int num2 = scanner.nextInt();
+        // Static values instead of user input
+        int num1 = 5;  // example static value
+        int num2 = 7;  // example static value
         
         int sum = num1 + num2;
         System.out.println("The sum is: " + sum);
